@@ -1,0 +1,153 @@
+--------------------------------------------------------
+--  File created - Thursday-December-17-2015   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table STOCK
+--------------------------------------------------------
+
+  CREATE TABLE "SYSTEM"."STOCK" 
+   (	"ID_STO" NUMBER(*,0), 
+	"NAME_STO" VARCHAR2(200 BYTE), 
+	"AMOUNT" NUMBER(*,0), 
+	"BPRICE" NUMBER(*,0), 
+	"USED" NUMBER, 
+	"ENTER" NUMBER, 
+	"D_ENTER" VARCHAR2(20 BYTE), 
+	"D_USE" VARCHAR2(20 BYTE)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SYSTEM.STOCK
+SET DEFINE OFF;
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (21,'????????',15,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (22,' ????',5,28,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (23,'???????????',5,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (24,'????????',3,24,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (25,'?????????????',10,28,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (26,'?????????????',10,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (27,'????????????',10,40,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (28,'??????',10,35,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (29,'???????',10,35,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (30,'??????',10,35,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (31,'??????',2,120,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (32,'???????',2,140,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (33,'????????',20,22,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (34,'?????????',20,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (35,'????????',3,75,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (36,'?????????',4,32,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (37,'??????',6,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (38,'???????????',5,40,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (39,'???????',10,120,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (40,'????',10,35,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (41,'???????????',27,130,0,17,'15-12-2015',null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (42,'????????',5,125,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (43,'?????????',5,220,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (44,'??????????????',5,180,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (45,'?????????????',5,180,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (46,'??????????????',5,180,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (47,'?????',3,10,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (48,'??????????????',5,67,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (49,'?????????',5,70,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (50,'???????????',5,70,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (51,'????????',10,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (52,'???????????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (53,'????????',3,57,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (54,'??????????????',5,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (55,'???????????',5,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (56,'???????????????',5,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (57,'?????????',3,54,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (58,'?????????',5,60,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (59,'??????????',2,34,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (60,'??????????',2,123,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (61,'?????????',2,250,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (62,'????????',3,76,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (63,'????????',3,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (64,'??????????',3,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (65,'??????',3,80,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (66,'???????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (67,'??????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (68,'??????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (69,'????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (70,'???????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (71,'??????????',3,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (72,'????????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (73,'?????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (74,'?????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (75,'????????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (76,'??????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (77,'???????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (78,'??????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (79,'????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (80,'?????',3,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (20,'????????????',3,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (19,'?????????????',3,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (18,'??????????????',3,50,0,16,'15-12-2015',null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (17,'?????????????',3,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (16,'????????????',3,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (15,'??????????????',3,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (14,'???????????????',2,120,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (13,'??????',20,10,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (12,'???????',20,25,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (11,'????&????',20,30,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (10,'?????????????',2,120,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (9,'?????',2,40,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (8,'???????',2,50,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (7,'??????????',2,120,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (6,'???????????????????????',10,150,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (5,'?????????',20,10,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (4,'?????',20,5,0,4,'14-12-2015',null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (3,'???',20,2,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (2,'???',20,4,0,0,null,null);
+Insert into SYSTEM.STOCK (ID_STO,NAME_STO,AMOUNT,BPRICE,USED,ENTER,D_ENTER,D_USE) values (1,'?????',20,20,1,0,null,'15-12-2015');
+--------------------------------------------------------
+--  DDL for Index STOCK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYSTEM"."STOCK_PK" ON "SYSTEM"."STOCK" ("ID_STO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table STOCK
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM"."STOCK" ADD CONSTRAINT "STOCK_PK" PRIMARY KEY ("ID_STO")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+  ALTER TABLE "SYSTEM"."STOCK" MODIFY ("ID_STO" NOT NULL ENABLE);
+--------------------------------------------------------
+--  DDL for Trigger STOCK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE TRIGGER "SYSTEM"."STOCK_TRG" 
+BEFORE INSERT ON STOCK 
+FOR EACH ROW 
+BEGIN
+  <<COLUMN_SEQUENCES>>
+  BEGIN
+    NULL;
+  END COLUMN_SEQUENCES;
+END;
+/
+ALTER TRIGGER "SYSTEM"."STOCK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger STOCK_TRG1
+--------------------------------------------------------
+
+  CREATE OR REPLACE TRIGGER "SYSTEM"."STOCK_TRG1" 
+BEFORE INSERT ON STOCK 
+FOR EACH ROW 
+BEGIN
+  <<COLUMN_SEQUENCES>>
+  BEGIN
+    IF INSERTING AND :NEW.ID_STO IS NULL THEN
+      SELECT STOCK_SEQ1.NEXTVAL INTO :NEW.ID_STO FROM SYS.DUAL;
+    END IF;
+  END COLUMN_SEQUENCES;
+END;
+/
+ALTER TRIGGER "SYSTEM"."STOCK_TRG1" ENABLE;
